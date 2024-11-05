@@ -122,7 +122,6 @@ After completing the deployment exercise, it's essential to clean up the resourc
 
 This cleanup will ensure that no unnecessary charges are incurred and that your Google Cloud credits are preserved for future projects.
 
-
 ## License
 
 This project is licensed under the MIT License. Feel free to use it for educational purposes.
