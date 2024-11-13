@@ -61,6 +61,7 @@ You can deploy this application to Google Cloud using Google App Engine. Follow 
 1. Go to [Google Cloud Console](https://console.cloud.google.com/).
 2. Create a new project or select an existing project.
 3. Make sure **App Engine** and **Cloud Build** APIs are enabled.
+4. Before deployment grant App Engine Deployer role to App Engine default service account. In the Google Cloud Console navigate to IAM & Admin next go to IAM. You should see permissions for your project. There will be Default App Engine Service account - please add App Engine Deployer role using pencil icon beside.
 
 #### Step 2: Create `app.yaml` for Google App Engine
 
@@ -123,5 +124,4 @@ After completing the deployment exercise, it's essential to clean up the resourc
 This cleanup will ensure that no unnecessary charges are incurred and that your Google Cloud credits are preserved for future projects.
 
 ## License
-
 This project is licensed under the MIT License. Feel free to use it for educational purposes.
